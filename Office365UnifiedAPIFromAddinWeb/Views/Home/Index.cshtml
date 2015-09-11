@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<i class="ms-Icon ms-Icon--plus"></i>
+<button class="ms-Button" id="get-data-from-selection">
+    <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--plus"></i> </span>
+    <span class="ms-Button-label">Get Data from selection</span>
+    <span class="ms-Button-description">Get Data from the document selection</span>
+</button>
+
+@*<div class="row">
+    <div id="divLogin">
+        <p>Please sign in with Office 365 so the add-in can query your contacts in Exchange Online.</p>
+        <button class="btn btn-primary btn-block" id="btnSignIn" disabled>Sign-in with Office 365</button>
+    </div>
+    <div id="divBody" style="display: none;">
+        <h2>My Contacts</h2>
+        <ul id="theList"><li>Loading...</li></ul>
+        <button id="btnInsert" class="btn btn-primary btn-block" style="display: none;">Insert into Excel</button>
+    </div>
+    <div id="modelSignin" class="modal fade" tabindex="-1" role="dialog" data-backdrop="static">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <h2>Waiting for sign-in...</h2>
+                <p>This dialog will automatically close when the sign-in to Office 365 completes.</p>
+            </div>
+        </div>
+    </div>
+</div>*@
+
+@section scripts {
+    <script src="~/Scripts/Home/index.js"></script>
+    }
